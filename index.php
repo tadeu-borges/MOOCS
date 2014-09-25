@@ -36,6 +36,29 @@
 	top: 0;
 	right: 0;
 	left: 0;
+	z-index: 100;
+}
+
+.colaboradores .title {
+	font-size: 18px !important;
+}
+
+.colaboradores .linkbox {
+	height: 450px;
+	background: #FFF;
+}
+
+.colaboradores .linkbox:hover {
+	background: #dd4814;
+}
+
+.colaboradores .linkbox:hover p {
+	color: #FFF !important;
+}
+
+.colaboradores .linkbox p.description {
+	font-size: 17px;
+	line-height: 22px;
 }
 </style>
 
@@ -155,37 +178,98 @@ Acesse nosso curso.</p><a href="/course/view.php?id=2" class="da-link">Acessar</
 			            
                 <!-- Link Box -->
 				<div class="sixteen columns alpha" id="featuredCourses">
-                            <div class="p">COLABORE</div>
+                    <div class="p">COLABORE</div>
 				</div>
                 <div class="sixteen columns alpha">
                     <div class="four columns linkbox  alpha">
-							<div style="text-align: center;">
-							<a href="/course/view.php?id=3">
-							<img src="UFG_REA/contato.png" style="width: 110px"; ></a></div>
-                           <p class="title">Fale Conosco</p>
-                            <p class="description">Área reservada para o contato com usuários. Tire suas dúvidas, envie sugestões, reporte problemas, saiba como você pode contribuir.</p>
-                        </div><div class="four columns linkbox four-box-per-line ">
-							<div style="text-align: center;">
+						<div style="text-align: center;">
+						<a href="/course/view.php?id=3">
+						<img src="UFG_REA/contato.png" style="width: 110px"; ></a></div>
+                       	<p class="title">Fale Conosco</p>
+                        <p class="description">Área reservada para o contato com usuários. Tire suas dúvidas, envie sugestões, reporte problemas, saiba como você pode contribuir.</p>
+                    </div>
+                    <div class="four columns linkbox four-box-per-line ">
+						<div style="text-align: center;">
 							<a href="">
-							<img src="UFG_REA/wikilivros_logo.png" ></a></div>
-                            <p class="description">Ajude-nos a escrever o material didático dos cursos. Participe de Projetos no site Wikilivros:
-				
-				<a href="http://pt.wikibooks.org/wiki/Manual_do_Ubuntu" target="_blank">Projeto Ubuntu</a><br/>
-				<a class="disabled" href="" target="_blank">Projeto LibreOffice</a></p>
-                        </div>
+							<img src="UFG_REA/wikilivros_logo.png" ></a>
+						</div>
+                        <p class="description">Ajude-nos a escrever o material didático dos cursos. Participe de Projetos no site Wikilivros:
+							<a href="http://pt.wikibooks.org/wiki/Manual_do_Ubuntu" target="_blank">Projeto Ubuntu</a>
+							<br/>
+							<a class="disabled" href="" target="_blank">Projeto LibreOffice</a>
+						</p>
+                    </div>
 				<!--<div class="four columns linkbox four-box-per-line ">
 							<div style="text-align: center;">
 							<a href="">
 							<img src="UFG_REA/wikimedia_logo.png" ></a></div>
                             <p class="description"></p>
                         </div>-->
-			<div class="four columns linkbox four-box-per-line omega">
-                            <div style="text-align: center;">
-				<a href="">
-				<img src="UFG_REA/github_logo.png" style="width: 140px; padding-top: 60px"></a>
+					<div class="four columns linkbox four-box-per-line omega">
+                        <div style="text-align: center;">
+							<a href="">
+							<img src="UFG_REA/github_logo.png" style="width: 140px; padding-top: 60px"></a>
+						</div>
+                        <p class="description">
+        	                Colabore com o desenvolvimento deste site. Este site se baseia no <a href="https://download.moodle.org/releases/security/" target="_blank">Moodle 2.5</a> e Template <a href="https://github.com/barbararamiro/moodle-theme_learnmoodle" target="_blank">Learnmoodle</a>. Você pode baixar todo o código-fonte alterado e acrescentado no Projeto do <a href="" target="_blank">GitHub</a>.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="sixteen columns alpha" id="featuredCourses">
+                    <div class="p">COLABORADORES</div>
 				</div>
-                            <p class="description">Colabore com o desenvolvimento deste site. Este site se baseia no <a href="https://download.moodle.org/releases/security/" target="_blank">Moodle 2.5</a> e Template <a href="https://github.com/barbararamiro/moodle-theme_learnmoodle" target="_blank">Learnmoodle</a>. Você pode baixar todo o código-fonte alterado e acrescentado no Projeto do <a href="" target="_blank">GitHub</a>.</p>
-                        </div>                </div>
+				<div class="colaboradores">
+	                <div class="sixteen columns alpha">
+	                    <div class="four columns linkbox  alpha">
+							<div style="text-align: center;">
+								<a href="/course/view.php?id=3">
+									<img src="UFG_REA/myTeam/1.jpg" style="width: 97%";>
+								</a>
+							</div>
+	                       	<p class="title">Samingun Wagio</p>
+	                        <p class="description">Dicant vocent nominavi ex namo, labor probatus neci, duo sonetaw vocent repre hendunt ei. Pondem reprimiue per gamen aderol duil.</p>
+	                    </div>
+	                    <div class="four columns linkbox four-box-per-line ">
+							<div style="text-align: center;">
+								<a href="">
+									<img src="UFG_REA/myTeam/2.jpg" style="width: 97%";>
+								</a>
+							</div>
+							<p class="title">Sumiyatun Dian</p>
+	                        <p class="description">Dicant vocent nominavi ex namo, labor probatus neci, duo sonetaw vocent repre hendunt ei. Pondem reprimiue per gamen aderol duil.
+							</p>
+	                    </div>
+						<div class="four columns linkbox four-box-per-line omega">
+	                        <div style="text-align: center;">
+								<a href="">
+									<img src="UFG_REA/myTeam/3.jpg" style="width: 97%";>
+								</a>
+							</div>
+							<p class="title">Bambang Wage</p>
+	                        <p class="description">
+	        	               Dicant vocent nominavi ex namo, labor probatus neci, duo sonetaw vocent repre hendunt ei. Pondem reprimiue per gamen aderol duil.
+	                        </p>
+	                    </div>
+	                    <div class="four columns linkbox four-box-per-line omega">
+	                        <div style="text-align: center;">
+								<a href="">
+									<img src="UFG_REA/myTeam/4.jpg" style="width: 97%";>
+								</a>
+							</div>
+							<p class="title">Christian Subandi</p>
+	                        <p class="description">
+	        	               Dicant vocent nominavi ex namo, labor probatus neci, duo sonetaw vocent repre hendunt ei. Pondem reprimiue per gamen aderol duil.
+	                        </p>
+	                    </div>
+	                </div>
+                </div>
+
+
+
+
+
             </div>
             
                     </div>
