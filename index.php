@@ -29,8 +29,16 @@
 
 <link rel="stylesheet" type="text/css" href="UFG_REA/yui_combo_002.css"><script type="text/javascript" src="UFG_REA/yui_combo_003.js"></script><link href="UFG_REA/yui_combo.css" id="yui_3_9_1_2_1408118235570_8" rel="stylesheet" charset="utf-8"><script async="" src="UFG_REA/yui_combo_004.js" id="yui_3_9_1_2_1408118235570_9" charset="utf-8"></script><script async="" src="UFG_REA/yui_combo_002.js" id="yui_3_9_1_2_1408118235570_10" charset="utf-8"></script><script async="" src="UFG_REA/yui_combo.js" id="yui_3_9_1_2_1408118235570_11" charset="utf-8"></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="UFG_REA/all.css">
 <script type="text/javascript" src="UFG_REA/head.js"></script>
-    
-    
+
+<style>
+.fixed {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+</style>
+
 </head>
 <body class=" jsenabled">
     <div class="skiplinks"><a class="skip" href="#maincontent">Skip to main content</a></div>
@@ -206,4 +214,16 @@ Acesse nosso curso.</p><a href="/course/view.php?id=2" class="da-link">Acessar</
 </div>
 
 <script type="text/javascript" src="UFG_REA/footer.js"></script>
+<script type="text/javascript">
+var num = 50;
+$(window).bind('scroll', function () {
+    if ($(window).scrollTop() > num) {
+        $('#topbar').addClass('fixed');
+    } else {
+        $('#topbar').removeClass('fixed');
+    }
+});
+</script>
+
+
 </body></html>
