@@ -111,6 +111,7 @@ document.body.className += ' jsenabled';
                                 <div class="twelve columns" style="width: 760px"><div id="menu">
 		                        <ul><li>
                 		                <a href="" class="active"><span data-hover="Início">Início</span></a></li>
+										<li><a href="/mod/simplecertificate/verify.php"><span data-hover="Validar Certificado">Validar Certificado</span></a></li>
 						<?php
 
 							if (empty($USER->id) or isguestuser($USER->id)) {
@@ -229,42 +230,42 @@ Acesse nosso curso.</p><a href="/course/view.php?id=2" class="da-link">Acessar</
 	                    <div class="four columns linkbox  alpha">
 							<div style="text-align: center;">
 								<a href="/course/view.php?id=3">
-									<img src="UFG_REA/myTeam/1.jpg" style="width: 97%";>
+									<img src="UFG_REA/myTeam/Hugo_portrait.jpg" style="width: 97%";>
 								</a>
 							</div>
-	                       	<p class="title">Samingun Wagio</p>
+	                       	<p class="title">Hugo do Nascimento</p>
 	                        <p class="description">Dicant vocent nominavi ex namo, labor probatus neci, duo sonetaw vocent repre hendunt ei. Pondem reprimiue per gamen aderol duil.</p>
 	                    </div>
 	                    <div class="four columns linkbox four-box-per-line ">
 							<div style="text-align: center;">
 								<a href="">
-									<img src="UFG_REA/myTeam/2.jpg" style="width: 97%";>
+									<img src="UFG_REA/myTeam/Marcelo_portrait.jpg" style="width: 97%";>
 								</a>
 							</div>
-							<p class="title">Sumiyatun Dian</p>
+							<p class="title">Marcelo Akira</p>
 	                        <p class="description">Dicant vocent nominavi ex namo, labor probatus neci, duo sonetaw vocent repre hendunt ei. Pondem reprimiue per gamen aderol duil.
 							</p>
 	                    </div>
 						<div class="four columns linkbox four-box-per-line omega">
 	                        <div style="text-align: center;">
 								<a href="">
-									<img src="UFG_REA/myTeam/3.jpg" style="width: 97%";>
+									<img src="UFG_REA/myTeam/Tadeu_portrait.png" style="width: 97%";>
 								</a>
 							</div>
-							<p class="title">Bambang Wage</p>
+							<p class="title">Tadeu Augusto Borges</p>
 	                        <p class="description">
-	        	               Dicant vocent nominavi ex namo, labor probatus neci, duo sonetaw vocent repre hendunt ei. Pondem reprimiue per gamen aderol duil.
+	        	               Graduando do Curso de Sistemas de Informação na Universidade Federal de Goiás.
 	                        </p>
 	                    </div>
 	                    <div class="four columns linkbox four-box-per-line omega">
 	                        <div style="text-align: center;">
 								<a href="">
-									<img src="UFG_REA/myTeam/4.jpg" style="width: 97%";>
+									<img src="UFG_REA/myTeam/Ricardo_portrait.jpg" style="width: 97%";>
 								</a>
 							</div>
-							<p class="title">Christian Subandi</p>
+							<p class="title">Ricardo Borges</p>
 	                        <p class="description">
-	        	               Dicant vocent nominavi ex namo, labor probatus neci, duo sonetaw vocent repre hendunt ei. Pondem reprimiue per gamen aderol duil.
+	        	               Graduando do Curso de Sistemas de Informação na Universidade Federal de Goiás.
 	                        </p>
 	                    </div>
 	                </div>
