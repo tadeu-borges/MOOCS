@@ -95,8 +95,10 @@ document.body.className += ' jsenabled';
                             <div class="sklt-container">
                                 <div class="four columns" style="width: 400px">
                                     <div id="logomarca"><a href="http://www.ufg.br" target="_blank"><img src="UFG_REA/ufg_logo.png" width="170px" style="display: inline-block; vertical-align: top; margin-right: 30px"></a><a href="http://www.inf.ufg.br" target="_blank"><img src="UFG_REA/inf_logo.png" width="200px" style="display: inline-block; vertical-align: top; padding-top: 5px"></a></div>
-                                       <div id="responsive_menu_button"></div><div id="responsive_menu">   <ul class="rp-menu"><li>
-                                <a href="">Início</a></li>
+										<div id="responsive_menu_button"></div><div id="responsive_menu">   
+											<ul class="rp-menu">
+												<li><a href="">Início</a></li>
+												<li><a href="/mod/simplecertificate/verify.php">Validar Certificado</a></li>
 				<?php
 
 					if (empty($USER->id) or isguestuser($USER->id)) {
