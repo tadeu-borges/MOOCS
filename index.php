@@ -3,6 +3,8 @@
     require_once('config.php');
     require_once($CFG->dirroot .'/course/lib.php');
     require_once($CFG->libdir .'/filelib.php');
+
+    $PAGE->set_course($SITE);
 ?>
 
 <!DOCTYPE html>
@@ -77,7 +79,7 @@ document.body.className += ' jsenabled';
                             <div class="sixteen columns">
 			<?php
 
-				if (!empty($USER->id) and !isguestuser($USER->id)) {
+				if (!empty($USER->id)) {
 					echo "<div id='login' class='topbutton'><a href='/user/profile.php'>";
 					echo "Bem vindo ";
 					echo $USER->firstname, " ", $USER->lastname;
