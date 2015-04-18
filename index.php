@@ -137,7 +137,7 @@ Acesse nosso curso.</p><a href="/course/view.php?id=2" class="da-link">Acessar</
                 <!-- Courses List -->
                 
                         <div class="sixteen columns alpha" id="featuredCourses">
-                            <div class="p">CURSOS ATIVOS</div>
+                            <div class="p">TODOS OS CURSOS</div>
                         
                             <!--
                             <div id="allCourses">
@@ -154,9 +154,26 @@ Acesse nosso curso.</p><a href="/course/view.php?id=2" class="da-link">Acessar</
                                             <img src="UFG_REA/Ubuntu_REA_Logo_mini.png" alt="Ubuntu">
                                         </a>
                                         <figcaption>
-                                            <h3>Ubuntu Básico</h3>
+                                            <h3>Linux Essencial</h3>
                                             <div>
                                                 <a href="/course/view.php?id=2">Visitar</a>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                            </ul>
+                        </div>
+						<div class="four columns course  four-box-per-line">
+                            <ul class="grid cs-style-3">
+                                <li>
+                                    <figure>
+                                        <a href="/course/view.php?id=2">
+                                            <img src="UFG_REA/Ubuntu_REA_Logo_mini.png" alt="Ubuntu">
+                                        </a>
+                                        <figcaption>
+                                            <h3>Ubuntu Básico</h3>
+                                            <div>
+                                                <a href="/course/view.php?id=2">Finalizado - Visitar</a>
                                             </div>
                                         </figcaption>
                                     </figure>
@@ -173,7 +190,7 @@ Acesse nosso curso.</p><a href="/course/view.php?id=2" class="da-link">Acessar</
                                         <figcaption style="background: #838383;">
                                             <h3>LibreOffice</h3>
                                             <div>
-                                                <a href="" style="background: #838383;">Em Breve</a>
+                                                <a href="" style="background: #838383;">A Partir de Agosto de 2015</a>
                                             </div>
                                         </figcaption>
                                     </figure>
