@@ -151,7 +151,7 @@ Acesse nosso curso.</p><a href="/course/view.php?id=2" class="da-link">Acessar</
                                 <li>
                                     <figure>
                                         <a href="/course/view.php?id=2">
-                                            <img src="UFG_REA/Ubuntu_REA_Logo_mini.png" alt="Ubuntu">
+                                            <img src="UFG_REA/Banner2_mini.png" alt="GNU-Linux">
                                         </a>
                                         <figcaption>
                                             <h3>Linux Essencial</h3>
