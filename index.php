@@ -218,6 +218,8 @@ Acesse nosso curso.</p><a href="/course/view.php?id=2" class="da-link">Acessar</
                         <p class="description">Ajude-nos a escrever o material didático dos cursos. Participe de Projetos no site Wikilivros:
 							<a href="http://pt.wikibooks.org/wiki/Manual_do_Ubuntu" target="_blank">Projeto Ubuntu</a>
 							<br/>
+							<a href="https://pt.wikibooks.org/wiki/Linux_Essencial" target="_blank">Projeto Linux Essencial</a>
+							<br />
 							<a class="disabled" href="" target="_blank">Projeto LibreOffice</a>
 						</p>
                     </div>
@@ -233,7 +235,7 @@ Acesse nosso curso.</p><a href="/course/view.php?id=2" class="da-link">Acessar</
 							<img src="UFG_REA/github_logo.png" style="width: 140px; padding-top: 60px"></a>
 						</div>
                         <p class="description">
-        	                Colabore com o desenvolvimento deste site. Este site se baseia no <a href="https://download.moodle.org/releases/security/" target="_blank">Moodle 2.5</a> e Template <a href="https://github.com/barbararamiro/moodle-theme_learnmoodle" target="_blank">Learnmoodle</a>. Você pode baixar todo o código-fonte alterado e acrescentado no Projeto do <a href="" target="_blank">GitHub</a>.
+        	                Colabore com o desenvolvimento deste site. Este site se baseia no <a href="https://download.moodle.org/releases/security/" target="_blank">Moodle 2.5</a> e Template <a href="https://github.com/barbararamiro/moodle-theme_learnmoodle" target="_blank">Learnmoodle</a>. Você pode baixar todo o código-fonte alterado e acrescentado no Projeto do <a href="https://github.com/tadeu-borges/MOOCS" target="_blank">GitHub</a>.
                         </p>
                     </div>
                 </div>
@@ -313,7 +315,7 @@ Acesse nosso curso.</p><a href="/course/view.php?id=2" class="da-link">Acessar</
     <div class="sklt-container">
         <div class="seven columns">
             <div id="footerendleft">
-                Universidade Federal de Goiás  | REA            </div>
+                <a target="blank" href="http://www.ufg.br" style="color: #FFF; text-decoration: none;">Universidade Federal de Goiás</a>  | <a style="color: #FFF; text-decoration: none;" href="http://curso.rea.ufg.br/" target="blank">REA</a>           </div>
         </div>
         <div class="nine columns float-right">
                </div>
