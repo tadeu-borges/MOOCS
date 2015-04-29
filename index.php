@@ -1,10 +1,10 @@
 <?php
 
     require_once('config.php');
-    require_once($CFG->dirroot .'/course/lib.php');
-    require_once($CFG->libdir .'/filelib.php');
+    //require_once($CFG->dirroot .'/course/lib.php');
+    //require_once($CFG->libdir .'/filelib.php');
 
-    $PAGE->set_course($SITE);
+   // $PAGE->set_course($SITE);
 ?>
 
 <!DOCTYPE html>
@@ -51,7 +51,7 @@
 }
 
 .colaboradores .linkbox:hover {
-	background: #dd4814;
+	background: #08C706;
 }
 
 .colaboradores .linkbox:hover p {
@@ -151,7 +151,7 @@ Acesse nosso curso.</p><a href="/course/view.php?id=2" class="da-link">Acessar</
                                 <li>
                                     <figure>
                                         <a href="/course/view.php?id=2">
-                                            <img src="UFG_REA/Ubuntu_REA_Logo_mini.png" alt="Ubuntu">
+                                            <img src="UFG_REA/gnu_linux_essencial.png" alt="Ubuntu">
                                         </a>
                                         <figcaption>
                                             <h3>Linux Essencial</h3>
