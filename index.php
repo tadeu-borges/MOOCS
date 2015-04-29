@@ -247,7 +247,7 @@ Acesse nosso curso.</p><a href="/course/view.php?id=2" class="da-link">Acessar</
 	                    <div class="four columns linkbox  alpha">
 							<div style="text-align: center;">
 								<a href="/course/view.php?id=3">
-									<img src="UFG_REA/myTeam/Hugo_portrait.jpg" style="width: 97%";>
+									<img src="UFG_REA/myTeam/Hugo_portrait.png" style="width: 97%";>
 								</a>
 							</div>
 	                       	<p class="title">Hugo do Nascimento</p>
