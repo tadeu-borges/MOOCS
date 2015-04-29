@@ -150,13 +150,13 @@ Acesse nosso curso.</p><a href="/course/view.php?id=2" class="da-link">Acessar</
                             <ul class="grid cs-style-3">
                                 <li>
                                     <figure>
-                                        <a href="/course/view.php?id=2">
+                                        <a href="/course/view.php?id=4">
                                             <img src="UFG_REA/Banner2_mini.png" alt="GNU-Linux">
                                         </a>
                                         <figcaption>
-                                            <h3>Linux Essencial</h3>
+                                            <h3>GNU/Linux Essencial</h3>
                                             <div>
-                                                <a href="/course/view.php?id=2">Visitar</a>
+                                                <a href="/course/view.php?id=4">Visitar</a>
                                             </div>
                                         </figcaption>
                                     </figure>
