@@ -151,7 +151,11 @@ Acesse nosso curso.</p><a href="/course/view.php?id=2" class="da-link">Acessar</
                                 <li>
                                     <figure>
                                         <a href="/course/view.php?id=2">
+<<<<<<< HEAD
                                             <img src="UFG_REA/gnu_linux_essencial.png" alt="Ubuntu">
+=======
+                                            <img src="UFG_REA/Banner2_mini.png" alt="GNU-Linux">
+>>>>>>> f1bb3143e95f174f91481da52e11eb42373fb57b
                                         </a>
                                         <figcaption>
                                             <h3>Linux Essencial</h3>
@@ -247,7 +251,7 @@ Acesse nosso curso.</p><a href="/course/view.php?id=2" class="da-link">Acessar</
 	                    <div class="four columns linkbox  alpha">
 							<div style="text-align: center;">
 								<a href="/course/view.php?id=3">
-									<img src="UFG_REA/myTeam/Hugo_portrait.jpg" style="width: 97%";>
+									<img src="UFG_REA/myTeam/Hugo_portrait.png" style="width: 97%";>
 								</a>
 							</div>
 	                       	<p class="title">Hugo do Nascimento</p>
