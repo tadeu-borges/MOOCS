@@ -51,7 +51,7 @@
 }
 
 .colaboradores .linkbox:hover {
-	background: #08C706;
+	background: #3261B9;
 }
 
 .colaboradores .linkbox:hover p {
@@ -151,11 +151,7 @@ Acesse nosso curso.</p><a href="/course/view.php?id=2" class="da-link">Acessar</
                                 <li>
                                     <figure>
                                         <a href="/course/view.php?id=2">
-<<<<<<< HEAD
-                                            <img src="UFG_REA/gnu_linux_essencial.png" alt="Ubuntu">
-=======
                                             <img src="UFG_REA/Banner2_mini.png" alt="GNU-Linux">
->>>>>>> f1bb3143e95f174f91481da52e11eb42373fb57b
                                         </a>
                                         <figcaption>
                                             <h3>Linux Essencial</h3>
