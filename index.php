@@ -12,123 +12,183 @@
 <!--[if IE 7 ]><html class="ie ie7" lang="en"  dir="ltr" lang="en" xml:lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"  dir="ltr" lang="en" xml:lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
-<html style="" class="yui3-js-enabled js no-touch js cssanimations csstransitions" dir="ltr" xml:lang="en" lang="en"><div class="" id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important"></div><!--<![endif]--><head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>UFG - Recursos Educacionais Abertos</title>
+<html style="" class="yui3-js-enabled js no-touch js cssanimations csstransitions" dir="ltr" xml:lang="en" lang="en">
+    <div class="" id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important"></div><!--<![endif]-->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>UFG - Recursos Educacionais Abertos</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <link href="UFG_REA/css.css" rel="stylesheet" type="text/css"><link href="UFG_REA/css_002.css" rel="stylesheet" type="text/css">    
-    <!--[if lt IE 9]>
-            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+        <link href="UFG_REA/css.css" rel="stylesheet" type="text/css"><link href="UFG_REA/css_002.css" rel="stylesheet" type="text/css">    
+        <!--[if lt IE 9]>
+                <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
 
-    <link rel="shortcut icon" href="UFG_REA/favicon.ico">
-    
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta http-equiv="pragma" content="no-cache">
-	<meta http-equiv="expires" content="0">
+        <link rel="shortcut icon" href="UFG_REA/favicon.ico">
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    	<meta http-equiv="pragma" content="no-cache">
+    	<meta http-equiv="expires" content="0">
 
-<link rel="stylesheet" type="text/css" href="UFG_REA/yui_combo_002.css"><script type="text/javascript" src="UFG_REA/yui_combo_003.js"></script><link href="UFG_REA/yui_combo.css" id="yui_3_9_1_2_1408118235570_8" rel="stylesheet" charset="utf-8"><script async="" src="UFG_REA/yui_combo_004.js" id="yui_3_9_1_2_1408118235570_9" charset="utf-8"></script><script async="" src="UFG_REA/yui_combo_002.js" id="yui_3_9_1_2_1408118235570_10" charset="utf-8"></script><script async="" src="UFG_REA/yui_combo.js" id="yui_3_9_1_2_1408118235570_11" charset="utf-8"></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="UFG_REA/all.css">
-<script type="text/javascript" src="UFG_REA/head.js"></script>
+        <link rel="stylesheet" type="text/css" href="UFG_REA/yui_combo_002.css">
+        <script type="text/javascript" src="UFG_REA/yui_combo_003.js"></script>
+        <link href="UFG_REA/yui_combo.css" id="yui_3_9_1_2_1408118235570_8" rel="stylesheet" charset="utf-8" />
+        <script async="" src="UFG_REA/yui_combo_004.js" id="yui_3_9_1_2_1408118235570_9" charset="utf-8"></script>
+        <script async="" src="UFG_REA/yui_combo_002.js" id="yui_3_9_1_2_1408118235570_10" charset="utf-8"></script>
+        <script async="" src="UFG_REA/yui_combo.js" id="yui_3_9_1_2_1408118235570_11" charset="utf-8"></script>
+        <script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script>
+        <link rel="stylesheet" type="text/css" href="UFG_REA/all.css">
+        <script type="text/javascript" src="UFG_REA/head.js"></script>
 
-<style>
-.fixed {
-	position: fixed;
-	top: 0;
-	right: 0;
-	left: 0;
-	z-index: 10000;
-}
+        <style>
+        .fixed {
+        	position: fixed;
+        	top: 0;
+        	right: 0;
+        	left: 0;
+        	z-index: 10000;
+        }
 
-.colaboradores .title {
-	font-size: 18px !important;
-}
+        .colaboradores .title {
+        	font-size: 18px !important;
+        }
 
-.colaboradores .linkbox {
-	height: 450px;
-	background: #FFF;
-}
+        .colaboradores .linkbox {
+        	height: 450px;
+        	background: #FFF;
+        }
 
-.colaboradores .linkbox:hover {
-	background: #3261B9;
-}
+        .colaboradores .linkbox:hover {
+        	background: #3261B9;
+        }
 
-.colaboradores .linkbox:hover p {
-	color: #FFF !important;
-}
+        .colaboradores .linkbox:hover p {
+        	color: #FFF !important;
+        }
 
-.colaboradores .linkbox p.description {
-	font-size: 17px;
-	line-height: 22px;
-}
-</style>
+        .colaboradores .linkbox p.description {
+        	font-size: 17px;
+        	line-height: 22px;
+        }
+        </style>
 
-</head>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.3.js"></script>
+        <link rel="stylesheet" type="text/css" href="UFG_REA/bootstrap/css/bootstrap.css" />
+        <script type="text/javascript" src="UFG_REA/bootstrap/js/bootstrap.js"></script>
+
+    </head>
 <body class=" jsenabled">
     <div class="skiplinks"><a class="skip" href="#maincontent">Skip to main content</a></div>
-<script type="text/javascript">
-//<![CDATA[
-document.body.className += ' jsenabled';
-//]]>
-</script>
+    <script type="text/javascript">
+    //<![CDATA[
+    document.body.className += ' jsenabled';
+    //]]>
+    </script>
 
     <header id="header2" class="row header">
-                    <div id="topbar" class="row">
-                        <div class="sklt-container">
-                            <div class="sixteen columns">
-			<?php
+        <div id="topbar" class="row">
+            <div class="sklt-container">
+                <div class="sixteen columns">
+    			<?php
 
-				if (!empty($USER->id)) {
-					echo "<div id='login' class='topbutton'><a href='/user/profile.php'>";
-					echo "Bem vindo ";
-					echo $USER->firstname, " ", $USER->lastname;
-					echo "!</a>", $OUTPUT->user_picture($USER);
-					echo "<a href='/login/logout.php?sesskey=", $USER->sesskey,"'>Sair</a></div>";
-				} else {
-					echo "<div id='login' class='topbutton'><a href='/login/index.php'>Login</a></div>";
-				}
-			?>
+    				if (!empty($USER->id)) {
+    					echo "<div id='login' class='topbutton'><a href='/user/profile.php'>";
+    					echo "Bem vindo ";
+    					echo $USER->firstname, " ", $USER->lastname;
+    					echo "!</a>", $OUTPUT->user_picture($USER);
+    					echo "<a href='/login/logout.php?sesskey=", $USER->sesskey,"'>Sair</a></div>";
+    				} else {
+    					echo "<div id='login' class='topbutton'><a href='/login/index.php'>Login</a></div>";
+    				}
+    			?>
+                </div>
+            </div>
+        </div>
+        <div id="menubar" class="row">
+                <div class="sklt-container">
+                    <div class="four columns" style="width: 400px">
+                        <div id="logomarca">
+                        <a href="http://www.ufg.br" target="_blank">
+                            <img src="UFG_REA/ufg_logo.png" width="170px" style="display: inline-block; vertical-align: top; margin-right: 30px"></a>
+                            <a href="http://www.inf.ufg.br" target="_blank">
+                                <img src="UFG_REA/inf_logo.png" width="200px" style="display: inline-block; vertical-align: top; padding-top: 5px">
+                            </a>
+                        </div>
+    					<div id="responsive_menu_button"></div><div id="responsive_menu">   
+    						<ul class="rp-menu">
+    							<li><a href="">Início</a></li>
+    							<li><a href="/mod/simplecertificate/verify.php">Validar Certificado</a></li>
+                				<?php
+                					if (empty($USER->id) or isguestuser($USER->id)) {
+                						echo "<li><a href='/login/signup.php?'>Inscrição</a>";
+                					}
+                				?>
+                                <li><a href="/course/view.php?id=3">Contato</a></li>
+                                </ul>
+                        </div>
+                    </div>
+                    <div class="twelve columns" style="width: 760px">
+                        <div id="menu">
+                            <ul>
+                                <li><a href="" class="active"><span data-hover="Início">Início</span></a></li>
+    						    <li><a href="/mod/simplecertificate/verify.php"><span data-hover="Validar Certificado">Validar Certificado</span></a></li>
+        						<?php
 
-</div>
-                        </div></div><div id="menubar" class="row">
-                            <div class="sklt-container">
-                                <div class="four columns" style="width: 400px">
-                                    <div id="logomarca"><a href="http://www.ufg.br" target="_blank"><img src="UFG_REA/ufg_logo.png" width="170px" style="display: inline-block; vertical-align: top; margin-right: 30px"></a><a href="http://www.inf.ufg.br" target="_blank"><img src="UFG_REA/inf_logo.png" width="200px" style="display: inline-block; vertical-align: top; padding-top: 5px"></a></div>
-										<div id="responsive_menu_button"></div><div id="responsive_menu">   
-											<ul class="rp-menu">
-												<li><a href="">Início</a></li>
-												<li><a href="/mod/simplecertificate/verify.php">Validar Certificado</a></li>
-				<?php
-
-					if (empty($USER->id) or isguestuser($USER->id)) {
-						echo "<li><a href='/login/signup.php?'>Inscrição</a>";
-					}
-				?>
-				<li>
-                                <a href="/course/view.php?id=3">Contato</a></li>   </ul></div>
-                                </div>
-                                <div class="twelve columns" style="width: 760px"><div id="menu">
-		                        <ul><li>
-                		                <a href="" class="active"><span data-hover="Início">Início</span></a></li>
-										<li><a href="/mod/simplecertificate/verify.php"><span data-hover="Validar Certificado">Validar Certificado</span></a></li>
-						<?php
-
-							if (empty($USER->id) or isguestuser($USER->id)) {
-								echo "<li><a href='/login/signup.php?'><span data-hover='Inscrição'>Inscrição</span></a></li>";
-							}
-						?>
-<li>
-                                <a href="/course/view.php?id=3"><span data-hover="Contato">Contato</span></a></li>   </ul>   
-                     </div></div>
-                            </div>
-                    </div></header>
+        							if (empty($USER->id) or isguestuser($USER->id)) {
+        								echo "<li><a href='/login/signup.php?'><span data-hover='Inscrição'>Inscrição</span></a></li>";
+        							}
+        						?>
+                                <li><a href="/course/view.php?id=3"><span data-hover="Contato">Contato</span></a></li>
+                            </ul>   
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </header>
     
-    <div id="sliderarea" class="row sliderwavesblue"><div class="shadow1"></div><div style="background-position: 1350% 0%;" id="slider1" class="da-slider"><div class="da-slide da-slide-fromright da-slide-current"><h2>Ubuntu 14.04 LTS</h2><p>Aprenda a usar a última versão do Ubuntu.
-Acesse nosso curso.</p><a href="/course/view.php?id=2" class="da-link">Acessar</a><div class="da-img"><img src="UFG_REA/slide_1.png" width="225" alt="image01"></div></div><div class="da-slide da-slide-toleft"><h2>Aprenda Ubuntu 14.04 LTS</h2><p>Aumente seus conhecimentos estudando conosco. Aprenda Ubuntu.</p><a href="/course/view.php?id=2" class="da-link">Acessar</a><div class="da-img"><img width="480" src="UFG_REA/ufg_inf.png" alt="image01"></div></div><div class="da-slide da-slide-toleft"><h2>Interatividade</h2><p>Todo o conteúdo que você precisa. Aprenda de forma fácil, rápida e eficiente.</p><a href="/course/view.php?id=2" class="da-link">Acessar</a></div><nav class="da-arrows">
-                                <span class="da-arrows-prev"></span>
-                                <span class="da-arrows-next"></span>
-                            </nav><nav class="da-dots"><span class="da-dots-current"></span><span class=""></span><span class=""></span></nav></div></div>    
+    <div>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="UFG_REA/img/first.png" alt="...">
+                <div class="carousel-caption">
+                ...
+                </div>
+            </div>
+            <div class="item">
+                <img src="UFG_REA/img/second.png" alt="...">
+                <div class="carousel-caption">
+                ...
+                </div>
+            </div>
+            <div class="item">
+              <img src="UFG_REA/img/third.png" alt="...">
+              <div class="carousel-caption">
+                ...
+              </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    </div>
     <div id="contentarea" class="row">
         <div class="sklt-container">
             
