@@ -3881,9 +3881,12 @@ solid #CCC;cursor:pointer;margin:5px
 .calnavright{background:url(/moodle/genesis/2/theme/image.php/genesis/theme/1403637295/icon_arrow_right) no-repeat right;right:5px}.yui-calendar
 .calnavleft{background:url(/moodle/genesis/2/theme/image.php/genesis/theme/1403637295/icon_arrow_left) no-repeat left;left:5px}.calendar-controls .arrow_link.next>.arrow{background:url(/moodle/genesis/2/theme/image.php/genesis/theme/1403637295/icon_arrow_right) no-repeat right}.calendar-controls .arrow_link.previous>.arrow{background:url(/moodle/genesis/2/theme/image.php/genesis/theme/1403637295/icon_arrow_left) no-repeat left}.calendar-controls
 .arrow_link.next{text-align:left}.calendar-controls
-.arrow_link.previous{text-align:right}*{border:0;font-family: Oxygen,sans-serif !important;margin:0;padding:0}*,*:after,*:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body{background-color:#FFF;overflow-x:hidden !important}html{overflow-x:hidden !important}
+.arrow_link.previous{text-align:right}
+*{border:0;
+	/*font-family: Oxygen,sans-serif !important;*/
+	margin:0;padding:0}*,*:after,*:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body{background-color:#FFF;overflow-x:hidden !important}html{overflow-x:hidden !important}
                         body{
-                            left: 50%;
+                            left: 0.4%;
                             margin-left: -675px;
                             position: absolute;
                             width: 1350px;
