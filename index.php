@@ -313,7 +313,7 @@
 								</a>
 							</div>
 	                       	<p class="title">Hugo do Nascimento</p>
-	                        <p class="description">Dicant vocent nominavi ex namo, labor probatus neci, duo sonetaw vocent repre hendunt ei. Pondem reprimiue per gamen aderol duil.</p>
+	                        <p class="description">Coordenação do Projeto e referência didática nos cursos Ubuntu 14.04 e Libre Office.</p>
 	                    </div>
 	                    <div class="four columns linkbox four-box-per-line ">
 							<div style="text-align: center;">
@@ -322,8 +322,7 @@
 								</a>
 							</div>
 							<p class="title">Marcelo Akira</p>
-	                        <p class="description">Dicant vocent nominavi ex namo, labor probatus neci, duo sonetaw vocent repre hendunt ei. Pondem reprimiue per gamen aderol duil.
-							</p>
+	                        <p class="description">Coordenação do Projeto e referência didática no curso GNU/Linux Essencial.</p>
 	                    </div>
 						<div class="four columns linkbox four-box-per-line omega">
 	                        <div style="text-align: center;">
@@ -332,9 +331,7 @@
 								</a>
 							</div>
 							<p class="title">Tadeu Augusto Borges</p>
-	                        <p class="description">
-	        	               Graduando do Curso de Sistemas de Informação na Universidade Federal de Goiás.
-	                        </p>
+	                        <p class="description">Gestão do ambiente, apoio técnico e desenvolvimento.</p>
 	                    </div>
 	                    <div class="four columns linkbox four-box-per-line omega">
 	                        <div style="text-align: center;">
@@ -343,9 +340,7 @@
 								</a>
 							</div>
 							<p class="title">Ricardo Borges</p>
-	                        <p class="description">
-	        	               Graduando do Curso de Sistemas de Informação na Universidade Federal de Goiás.
-	                        </p>
+	                        <p class="description">Criação de material didático, apoio técnico e desenvolvimento.</p>
 	                    </div>
 	                </div>
                 </div>
