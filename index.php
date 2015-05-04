@@ -190,7 +190,7 @@
     </div>
     </div>
     <div id="contentarea" class="row">
-        <div class="sklt-container">
+        <div class="sklt-container" style="width: 1200px; margin-top: 10px;">
             
                         
             <div class="sixteen columns">
