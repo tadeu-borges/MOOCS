@@ -159,19 +159,19 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="UFG_REA/img/first.png" alt="...">
+                <img src="UFG_REA/img/Linux_essencial.png" alt="GNU/Linux Essencial">
                 <div class="carousel-caption">
                 ...
                 </div>
             </div>
             <div class="item">
-                <img src="UFG_REA/img/second.png" alt="...">
+                <img src="UFG_REA/img/Libre_office.png" alt="Libre Office">
                 <div class="carousel-caption">
                 ...
                 </div>
             </div>
             <div class="item">
-              <img src="UFG_REA/img/third.png" alt="...">
+              <img src="UFG_REA/img/Ubuntu_14-04.png" alt="Ubuntu 14.04">
               <div class="carousel-caption">
                 ...
               </div>
