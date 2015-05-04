@@ -107,7 +107,7 @@
         </div>
         <div id="menubar" class="row">
                 <div class="sklt-container">
-                    <div class="four columns" style="width: 400px">
+                    <div class="four columns" style="width: 435px">
                         <div id="logomarca">
                         <a href="http://www.ufg.br" target="_blank">
                             <img src="UFG_REA/ufg_logo.png" width="170px" style="display: inline-block; vertical-align: top; margin-right: 30px"></a>
