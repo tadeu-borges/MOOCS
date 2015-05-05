@@ -1,10 +1,73 @@
 <?php
 
-    require_once('config.php');
+    //require_once('config.php');
     //require_once($CFG->dirroot .'/course/lib.php');
     //require_once($CFG->libdir .'/filelib.php');
 
    // $PAGE->set_course($SITE);
+   
+   if (!file_exists('./config.php')) {
+        header('Location: install.php');
+        die;
+    }
+
+    require_once('config.php');
+    require_once($CFG->dirroot .'/course/lib.php');
+    require_once($CFG->libdir .'/filelib.php');
+
+    redirect_if_major_upgrade_required();
+
+    $urlparams = array();
+    if (!empty($CFG->defaulthomepage) && ($CFG->defaulthomepage == HOMEPAGE_MY) && optional_param('redirect', 1, PARAM_BOOL) === 0) {
+        $urlparams['redirect'] = 0;
+    }
+    $PAGE->set_url('/', $urlparams);
+    $PAGE->set_course($SITE);
+    $PAGE->set_other_editing_capability('moodle/course:update');
+    $PAGE->set_other_editing_capability('moodle/course:manageactivities');
+    $PAGE->set_other_editing_capability('moodle/course:activityvisibility');
+
+    // Previnir cache na página
+    $PAGE->set_cacheable(false);
+
+    if ($CFG->forcelogin) {
+        require_login();
+    } else {
+        user_accesstime_log();
+    }
+
+    $hassiteconfig = has_capability('moodle/site:config', context_system::instance());
+
+/// Imprimir mensagem de manutenção, caso esteja em manutenção
+    if (!empty($CFG->maintenance_enabled) and !$hassiteconfig) {
+        print_maintenance_message();
+    }
+
+    if ($hassiteconfig && moodle_needs_upgrading()) {
+        redirect($CFG->wwwroot .'/'. $CFG->admin .'/index.php');
+    }
+
+    if (get_home_page() != HOMEPAGE_SITE) {
+        // Redirecionar para My Moodle caso configurado
+        if (optional_param('setdefaulthome', false, PARAM_BOOL)) {
+            set_user_preference('user_home_page_preference', HOMEPAGE_SITE);
+        } else if (!empty($CFG->defaulthomepage) && ($CFG->defaulthomepage == HOMEPAGE_MY) && optional_param('redirect', 1, PARAM_BOOL) === 1) {
+            redirect($CFG->wwwroot .'/my/');
+        } else if (!empty($CFG->defaulthomepage) && ($CFG->defaulthomepage == HOMEPAGE_USER)) {
+            $PAGE->settingsnav->get('usercurrentsettings')->add(get_string('makethismyhome'), new moodle_url('/', array('setdefaulthome'=>true)), navigation_node::TYPE_SETTING);
+        }
+    }
+
+    if (isloggedin()) {
+        add_to_log(SITEID, 'course', 'view', 'view.php?id='.SITEID, SITEID);
+    }
+
+    $PAGE->set_pagetype('site-index');
+    $PAGE->set_docs_path('');
+    $PAGE->set_pagelayout('frontpage');
+    $editing = $PAGE->user_is_editing();
+    $PAGE->set_title($SITE->fullname);
+    $PAGE->set_heading($SITE->fullname);
 ?>
 
 <!DOCTYPE html>
